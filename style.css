@@ -1,1 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar-brand {
+  margin-left: 5%;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+  margin-right: 7%;
+}
+
+.navbar-collapse .navbar-nav .nav-link {
+  color: blue;
+  margin-right: 15%;
+}
