@@ -44,6 +44,12 @@ body {
 }
 
 #headline .shapes {
+  width: -webkit-fill-available;
+  background-position: center center;
+  height: auto;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("Images/header-shapes-desktop.png");
   
 }
 
@@ -253,4 +259,238 @@ body {
   border-radius: 8px;
   order: 0;
   flex-grow: 0;
+}
+
+#About {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 4rem;
+  background-image: url("Images/about-myself-background-desktop.png");
+  background-size: cover;
+  width: 100%;
+  padding-bottom: 8rem;
+  height: auto;
+}
+
+#About .center {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+}
+
+#About .Aboutcontent {
+  margin-top: 7rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 50%;
+  padding-left: 3rem;
+}
+
+#About .Aboutcontent h3 {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 3.25rem;
+  align-items: center;
+  color: #172b4d;
+  order: 0;
+}
+
+#About .Aboutcontent p {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #344563;
+  order: 1;
+}
+
+#About .Aboutcontent a {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #7f8cff;
+  text-decoration: none;
+  order: 2;
+}
+
+#About ul {
+  display: flex;
+  list-style: none;
+  order: 3;
+  margin-top: 1rem;
+  margin-bottom: 1.8rem;
+  margin-left: -2.5rem;
+}
+
+#About ul li {
+  padding-left: 0.8rem;
+}
+
+#About .resume {
+  order: 4;
+}
+
+#About .info {
+  display: flex;
+  flex-direction: column;
+  margin-top: 7rem;
+  width: 50%;
+  flex-wrap: wrap;
+  padding-right: 3rem;
+}
+
+#About .other h5 {
+  height: 1.5rem;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.25rem;
+  color: #344563;
+}
+
+#About .inline h5 {
+  color: #344563;
+  font-weight: 650;
+  font-size: 1.25rem;
+  margin-left: 3rem;
+}
+
+#About .info .inline .arrow {
+  position: relative;
+  bottom: 30px;
+  left: 90%;
+}
+
+#About .languages ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin-left: 0.8rem;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+#About .languages .background {
+  width: 110px;
+  height: 7rem;
+  background: #f7f7f9;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+}
+
+#About .languages .background .e {
+  padding: 0.5rem;
+}
+
+#About .background a {
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  color: hsl(218, 41%, 25%);
+}
+
+#About .info .languages .js {
+  margin: 0.7rem;
+  position: inherit;
+}
+
+#About .info .languages .background .html,
+#About .info .languages .background .css {
+  display: block;
+  position: inherit;
+  margin-left: 0.9rem;
+}
+
+#About .other {
+  position: relative;
+  top: 2rem;
+  margin-left: 3rem;
+}
+
+#About .other img {
+  margin-top: 0.8rem;
+  margin-right: 2.5rem;
+  position: relative;
+  bottom: 37px;
+  left: 90%;
+}
+
+footer {
+  background-image: url("Images/contact\ form-\ background-shape-desktop.svg");
+}
+
+footer .shapes {
+  background-image: url("Images/contact-form-desktop-shapes-bg.png");
+}
+
+footer #form1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+
+footer .contact-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+footer .contact-details  h2 {
+  margin-top: 2rem;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+footer .contact-details p {
+  width: 60%;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.form .form-control {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.btn {
+  color: blue;
+  margin-bottom: 4rem;
+}
+
+.btn-light:hover {
+  color: #fff;
+  background-color: #7f8cff;
 }
