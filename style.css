@@ -37,10 +37,14 @@ body {
 }
 
 #headline {
-  width: 100%;
-  height: auto;
-  background-color: #fff;
-  border-bottom-left-radius: 12%;
+  background-size: 100% 100%;
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-image: url("Images/header-background-desktop.png");
+}
+
+#headline .shapes {
+  
 }
 
 .content {
